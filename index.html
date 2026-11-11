@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamron Kamolov — Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#about">Kamron<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#projects">Projects</a>
+      <a href="#network">Network</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Switch light/dark mode">🌙</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="avatar">KK</div>
+      <div>
+        <p class="eyebrow">First-year IT student · Inha University in Tashkent</p>
+        <h1>Hi, I'm Kamron Kamolov</h1>
+        <p class="lead">
+          I'm learning how computers, networks and the web really work — from packets
+          and routers all the way up to the pages you see in a browser.
+        </p>
+        <a class="btn" href="#projects">See my projects</a>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h2>My courses</h2>
+      <div class="grid">
+        <article class="card"><h3>Calculus 1</h3><p>Limits, derivatives and integrals.</p></article>
+        <article class="card"><h3>Introduction to IT</h3><p>Networks, the Internet, DNS, security and the web.</p></article>
+        <article class="card"><h3>Physics 1</h3><p>Mechanics: motion, forces, energy and momentum.</p></article>
+        <article class="card"><h3>Object Oriented Programming 1</h3><p>Classes, objects, inheritance and writing clean code.</p></article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Network detective</h3>
+          <p>Analysed real packets in Wireshark: ARP, DNS, ping, traceroute, and HTTP vs HTTPS logins.</p>
+        </article>
+        <article class="card">
+          <h3>This homepage</h3>
+          <p>Built with HTML, CSS and JavaScript, published on GitHub Pages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="network">
+      <h2>Network detective</h2>
+      <ul class="facts">
+        <li>My ISP is <strong>AS207154 — PE Luseya Plyus</strong></li>
+        <li>My router was made by <strong>Shanghai Baud Data Communication</strong></li>
+        <li>inha.uz is <strong>at least 4</strong> hops away</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to say hi? Find me here:</p>
+      <div class="links">
+        <a class="btn" href="https://github.com/Kamron-bb">GitHub</a>
+        <a class="btn btn-outline" href="mailto:kamolovkamron34@gmail.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Kamron Kamolov</footer>
+  <script src="script.js"></script>
+</body>
+</html>
